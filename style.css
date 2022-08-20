@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Rubik;
+    src: url(Fonts/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+
+}
+
+
+nav {
+    background-image: var(--bs-gradient);
+}
+
+.bg-info {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
+}
+
+hr {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.slide-show-item-txt {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+#but {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border-radius: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+
+
+}
+
+.footer {
+    /* background-image: var(--bs-gradient); */
+    /* background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    background-image: linear-gradient(to right, #010416, #081a28, #022b38, #003c44, #0d4e4b);
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    text-transform: capitalize;
+}
+
+body {
+    /* background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #000000 100%); */
+    background-image: linear-gradient(to right bottom, #0b090a, #170c14, #1d0f1e, #1f122a, #1d1637, #1c2248, #162f58, #003c68, #00547b, #006b89, #00828f, #189991);
+
+}
