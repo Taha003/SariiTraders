@@ -4,14 +4,7 @@ img[0] = `https://i.ytimg.com/vi/mYLXmu0zDJ4/maxresdefault.jpg`;
 img[1] = "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/89/fd/b9.jpg"
 img[2] = "https://cdn.theculturetrip.com/wp-content/uploads/2020/04/gettyimages-699112711-1.jpg";
 img[3] = "https://www.uia-architectes.org/wp-content/uploads/2022/01/shutterstock_795179983_2.jpg"
-// img[0]=new Image;
-// img[0].src='Images\maxresdefault.jpg'
 
-// img[1]=new Image;
-// img[1].src='Images\maxresdefault.jpg'
-
-// img[2]=new Image;
-// img[2].src='Images\maxresdefault.jpg'
 function changeImg() {
     let Image = document.getElementById('travel-img');
     Image.src = img[i];
@@ -93,3 +86,25 @@ function chngImg4() {
 chngImg4();
 
 
+var x = 0;
+let img5 = new Array();
+img5[0] = "https://www.projebeyaz.com/wp-content/uploads/2020/03/pb_7neden.jpg"
+img5[1] = "https://bakuresearchinstitute.org/wp-content/uploads/2020/11/tierra-mallorca-unsplash.jpg"
+img5[2] = "https://www.azernews.az/media/pictures/estate.jpg"
+
+function chngImg5() {
+    let Image5 = document.getElementById('realstate-img');
+    Image5.src = img5[x];
+
+    if (x < img5.length - 1) {
+        x++
+    }
+
+    else {
+        x = 0
+    }
+
+    setTimeout('chngImg5()', 3000)
+}
+
+chngImg5();

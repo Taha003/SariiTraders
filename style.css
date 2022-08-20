@@ -1,13 +1,13 @@
 @font-face {
-    font-family: Rubik;
-    src: url(Fonts/Rubik/Rubik-VariableFont_wght.ttf);
+    font-family: Inter;
+    src: url(Fonts/static/Inter-Black.ttf)
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Rubik", sans-serif;
+    font-family: "Inter", sans-serif;
 
 }
 
@@ -56,10 +56,8 @@ hr {
 }
 
 .footer {
-    /* background-image: var(--bs-gradient); */
-    /* background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
-    background-image: linear-gradient(to right, #010416, #081a28, #022b38, #003c44, #0d4e4b);
+
+    background-image: linear-gradient(to right bottom, #545a64, #5e6169, #67686e, #707073, #787878);
 
 }
 
@@ -72,8 +70,16 @@ body {
 }
 
 body {
-    /* background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #000000 100%); */
-    background-image: linear-gradient(to right bottom, #0b090a, #170c14, #1d0f1e, #1f122a, #1d1637, #1c2248, #162f58, #003c68, #00547b, #006b89, #00828f, #189991);
 
+    background-image: linear-gradient(to right bottom, #535152, #6c696b, #848185, #9d9ba1, #b6b6be, #b6b6be, #b6b6be, #b6b6be, #9d9ba1, #848185, #6c696b, #535152);
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+
+.font {
+    color: #004040
 }
