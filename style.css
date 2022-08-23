@@ -71,7 +71,8 @@ body {
 
 body {
 
-    background-image: linear-gradient(to right bottom, #535152, #6c696b, #848185, #9d9ba1, #b6b6be, #b6b6be, #b6b6be, #b6b6be, #9d9ba1, #848185, #6c696b, #535152);
+
+    background-image: linear-gradient(to right bottom, #fcfdff, #dfe5e8, #c3cece, #acb7b1, #9b9f93);
 }
 
 .whatsapp-float {

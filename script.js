@@ -14,7 +14,7 @@ function changeImg() {
     else {
         i = 0
     }
-    setTimeout('changeImg()', 3000)
+    setTimeout('changeImg()', 4500)
 }
 var j = 0
 changeImg()
@@ -34,7 +34,7 @@ function changImg2() {
         j = 0;
     }
 
-    setTimeout('changImg2()', 3000)
+    setTimeout('changImg2()', 4500)
 }
 
 
@@ -57,7 +57,7 @@ function chngImg3() {
         k = 0
     }
 
-    setTimeout('chngImg3()', 3000)
+    setTimeout('chngImg3()', 4500)
 }
 
 chngImg3();
@@ -80,7 +80,7 @@ function chngImg4() {
         z = 0
     }
 
-    setTimeout('chngImg4()', 3000)
+    setTimeout('chngImg4()', 4500)
 }
 
 chngImg4();
@@ -104,7 +104,7 @@ function chngImg5() {
         x = 0
     }
 
-    setTimeout('chngImg5()', 3000)
+    setTimeout('chngImg5()', 4500)
 }
 
 chngImg5();
